@@ -18,10 +18,15 @@ body {
   margin: 0;
   font-family: Georgia, 'Times New Roman', serif;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 10% 5%, #fff6d7 0 12%, transparent 35%),
-    radial-gradient(circle at 90% 10%, #d9f1ff 0 10%, transparent 32%),
-    linear-gradient(135deg, var(--bg1), var(--bg2));
+
+  background-image:
+    linear-gradient(rgba(255,255,255,0.72), rgba(255,255,255,0.72)),
+    url("images/_.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
   min-height: 100vh;
 }
 .app {
